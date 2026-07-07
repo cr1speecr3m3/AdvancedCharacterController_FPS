@@ -24,6 +24,6 @@ public class PlayerCamera : MonoBehaviour
 
     public void UpdatePosition(Transform target)
     {
-        transform.position = target.position;
+        transform.position = target.position; 
     }
 }
